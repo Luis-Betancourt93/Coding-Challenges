@@ -27,3 +27,4 @@ function warnTheSheep(queue) {
     return `Oi! Sheep number ${index}! You are about to be eaten by a wolf!`
   }
 }
+
