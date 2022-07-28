@@ -1,5 +1,5 @@
 
-
+// ---------------------------------------- Problem #1 --------------------------------
 
 // Let's imagine we have a popular online RPG. A player begins with a score of 0 in class E5. A1 is the highest level a player can achieve.
 
@@ -12,11 +12,31 @@
 // Otherwise return, False/false (according to the language in use).
 
 
-// -------------------------------- Solution ---------------------
+// -------------------------------- Solution --------------------------------------------
 // let playerScore = 0;
 
 // if (playerScore === 100) {
 //   alert("Well done! You have advanced to the qualifying stage. Win 2 out of you next 3 games to rank up.");
 // } else {
 //   alert("Sorry you dont have enough points to advance to the next stage.");
+// }
+
+
+
+
+// ---------------------------------------- Problem #2 --------------------------------
+
+// Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+
+// -------------------------------- Solution --------------------------------------------
+
+// Here we are checking in number is even or odd, I used the modulus operator to see if is even by returning 0
+
+// function even_or_odd(number) {
+//   if(number % 2 == 0 ) {
+//     return "Even";
+//   } else {
+//     return "Odd";
+//   }
 // }
