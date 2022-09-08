@@ -41,15 +41,40 @@
 //   }
 // }
 
-// You are given two sorted arrays that both only contain integers. Your task is to find a way to merge them into a single one, sorted in asc order. Complete the function mergeArrays(arr1, arr2), where arr1 and arr2 are the original sorted arrays.
 
-// You don't need to worry about validation, since arr1 and arr2 must be arrays with 0 or more Integers. If both arr1 and arr2 are empty, then just return an empty array.
+//  ------------------------------------- Reversed Words Challange -------------------------------
+// MINE SOLUTION 
 
-// Note: arr1 and arr2 may be sorted in different orders. Also arr1 and arr2 may have same integers. Remove duplicated in the returned result.
+function reverseString(str) {
+
+  /* 
+      Make Sure you put a space in between the ("Quotation Marks"). 
+      WITH SPACE - it will return ( world! hello ) Returns the WORDS backwards
+      WITHOUT SPACE - it will return ( !dlrow olleh ) Returns the LETTERS backwards
+  */
+
+  // Step 1: Use the "split()" method to return a new array. Each letter is it's own. (Dont forget the Quotaion Mark "")
+  let splitString = str.split(" "); // let splitString = "hello".split("");
+  // ["h", "e", "l", "l", "o"]
+
+  // Step 2: Use the 'reverse()' method to reverse the new created array and put it into a new variable. 
+  let reverseArray = splitString.reverse(); // reverseArray = ["h", "e", "l", "l", "o"].reverse();
+
+  // Step 3: Use the "join()" method to join all elements of the array into a string and put it into a new variable. (Dont forget the Quotaion Mark "")
+  let joinArray = reverseArray.join(" ")
+
+  // Now we can return the array.
+  return joinArray; // "olleh"
+
+}
+
+console.log (reverseString("hello world!"));
 
 
-// Write a function that will check if two given characters are the same case.
+/*
+    CODE WARS BEST PRACTICES SOLUTION 
 
-// If either of the characters is not a letter, return -1
-// If both characters are the same case, return 1
-// If both characters are letters, but not the same case, return 0
+    function reverseWords(str){
+      return str.split(' ').reverse().join(' ');
+    }
+*/
