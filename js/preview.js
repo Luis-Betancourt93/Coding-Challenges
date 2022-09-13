@@ -45,7 +45,7 @@
 //  ------------------------------------- Reversed Words Challange -------------------------------
 // MINE SOLUTION 
 
-function reverseString(str) {
+// function reverseString(str) {
 
   /* 
       Make Sure you put a space in between the ("Quotation Marks"). 
@@ -54,21 +54,21 @@ function reverseString(str) {
   */
 
   // Step 1: Use the "split()" method to return a new array. Each letter is it's own. (Dont forget the Quotaion Mark "")
-  let splitString = str.split(" "); // let splitString = "hello".split("");
+  // let splitString = str.split(" "); // let splitString = "hello".split("");
   // ["h", "e", "l", "l", "o"]
 
   // Step 2: Use the 'reverse()' method to reverse the new created array and put it into a new variable. 
-  let reverseArray = splitString.reverse(); // reverseArray = ["h", "e", "l", "l", "o"].reverse();
+  // let reverseArray = splitString.reverse(); // reverseArray = ["h", "e", "l", "l", "o"].reverse();
 
   // Step 3: Use the "join()" method to join all elements of the array into a string and put it into a new variable. (Dont forget the Quotaion Mark "")
-  let joinArray = reverseArray.join(" ")
+  // let joinArray = reverseArray.join(" ")
 
   // Now we can return the array.
-  return joinArray; // "olleh"
+  // return joinArray; // "olleh"
 
-}
+// }
 
-console.log (reverseString("hello world!"));
+// console.lg (reverseString("hello world!"));
 
 
 /*
@@ -142,14 +142,32 @@ function subt(a,b){
     return a - b;
 }
 
-
-
-
-
-
-
-
-
-
-
 */
+
+/*
+Debugging Challange 
+
+Object debugging
+While making a zork-type game, you create an object of rooms. Unfortunately, the game is not working. Find all of the errors in the rooms object to get your game working again.
+*/
+
+// ------------------ Problem --------------
+// var rooms = {
+//   first: {
+//     description: 'This is the first room',
+//     items: {
+//       chair: 'The old chair looks comfortable',
+//       lamp: 'This lamp looks ancient'
+//   }
+//  },
+//   second: {
+//     description: 'This is the second room',
+//     items: {
+//       couch: 'This couch looks like it would hurt your back',
+//       table: 'On the table there is an unopened bottle of water'
+//     }
+//   }
+// }
+
+// ----------- Solution ---------
+// Was missing some commas and perenthesis
