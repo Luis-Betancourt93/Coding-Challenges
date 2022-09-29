@@ -16,10 +16,10 @@ In this simple assignment you are given a number and have to make it negative. B
 
   function makeNegative(num){
     if (num > 0) {
-      console.log(-Math.abs(num))
-    } else if (num < 0){
-      console.log(num)
+      return -Math.abs(num)
+    } else if (num <= 0){
+      return num
     }
   } 
 
-  makeNegative(0);
+  makeNegative(30);
