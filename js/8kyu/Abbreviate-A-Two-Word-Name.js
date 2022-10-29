@@ -8,7 +8,45 @@
 // Take name => initials 
 // No empty string, always F&L name, No funny biz
 // console.log the result 
-// Fist initals . last initial 
+// Fist initals . last initial
+
+
+// Luis Betancourt = L.B
+// Stacy Cruz = S.C
+// Esperanza Alejandrino = E.A
+
+//  Keep Practicing 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function nameIntoInitials(name) {
@@ -21,12 +59,9 @@ function nameIntoInitials(name) {
 
 }
 
-
 nameIntoInitials('Luis Betancourt')
 
-// Luis Betancourt = L.B
-// Stacy Cruz = S.C
-// Esperanza Alejandrino = E.A
+
 
 
 
