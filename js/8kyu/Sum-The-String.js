@@ -14,3 +14,8 @@ If either input is an empty string, consider it as zero.
 
 Inputs and the expected output will never exceed the signed 32-bit integer limit (2^31 - 1)
 */
+
+function sumStr(a,b) {
+  let num = Number(a) + Number(b)
+  return num.toString();
+ }
