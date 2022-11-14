@@ -1,4 +1,4 @@
-
+/*
 Inspired by the development team at Vooza, write the function that
 
 accepts the name of a programmer, and
@@ -11,3 +11,12 @@ For example(Input --> Output):
 
 "anyone else" --> 0
 "Zach" --> 18
+*/
+
+function howManyLightsabersDoYouOwn(name) {
+  if(name === "Zach") {
+    return 18;
+  } else {
+    return 0;
+  }
+}
