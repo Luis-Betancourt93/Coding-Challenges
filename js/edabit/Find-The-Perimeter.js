@@ -10,13 +10,6 @@ console.log(length * 2 + width * 2)
 
 
 
-
-
-
-
-
-
-
 findPerimeter(6, 7) // ➞ 26
 
 findPerimeter(20, 10) // ➞ 60
