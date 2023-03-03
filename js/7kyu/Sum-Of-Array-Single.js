@@ -16,7 +16,7 @@
 function repeats(arr){
 
   //Here Im using filter and checking if the "element/number" is the same index at the start of the array by using .indexOf() and also using .lastIndexOf() to also check the index of the "element/number" from the end to the front if both equals the same index that means there is only one of that same number. so that would mean that is not a pair/duplicate number and you should add it.
-  const newArray = arr.filter(element => arr.indexOf(element) === arr.lastIndexOf(element)) //
+  const newArray = arr.filter(element => arr.indexOf(element) === arr.lastIndexOf(element)) 
   const sum = newArray.reduce((acc,num) => acc + num, 0)
   console.log(newArray)
   console.log(sum)
