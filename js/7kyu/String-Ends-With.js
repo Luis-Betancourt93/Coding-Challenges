@@ -3,10 +3,6 @@
 // Examples:
 
 
-
-
-
-
 function solution(str, ending){
   
   if (str.endsWith(ending)  ) {
