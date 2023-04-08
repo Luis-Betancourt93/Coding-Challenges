@@ -1,6 +1,5 @@
 
-let chars = ['A', 'B', 'A', 'C', 'B'];
-
- let uniqueChars = [... new Set(chars) ]
-
- console.log(uniqueChars)
+function repeats(array) {
+  console.log(array.filter(element => array.indexOf(element) === array.lastIndexOf(element)))
+  } 
+  repeats([4,5,7,5,4,8])
