@@ -10,4 +10,4 @@ newWord("apple") // ➞ "pple"
 
 newWord("cherry") // ➞ "herry"
 
-newWord("plum") // ➞ "lum"
+newWord("plum") // ➞ "lum" 
