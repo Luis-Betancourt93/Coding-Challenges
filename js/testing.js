@@ -1,6 +1,5 @@
 
 
-const lastWord = x => console.log(x.charAt(x.length - 1))
+let array = [1, 2, 3, 4, 5]
 
-
-lastWord('hello')
+console.log( array[1] )
