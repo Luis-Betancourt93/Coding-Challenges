@@ -11,9 +11,9 @@
   console.log(mygcd( 8,  9)) //  1
   console.log(mygcd( 1,  1)) //  1
 
-
+/*
 function mygcd(x,y){
-  //your code here
+  //your code here (Brute Force)
   for(let i = Math.min(x,y); i > 0; i--) {
     if(x % i === 0 && y % i === 0 ) {
       return i
@@ -22,4 +22,13 @@ function mygcd(x,y){
 
 
 }
-  
+  */
+
+function mygcd(a,b) {
+  if(b === 0) {
+    return a 
+  }
+
+  return mygcd(b, a % b)
+
+}
