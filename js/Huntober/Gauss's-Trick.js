@@ -16,9 +16,9 @@
     // get the last item
     const lastItem = arr[arr.length - 1]
     // Gauss's Trick
-    return lastItem * (lastItem + 1) / 2
+    console.log( lastItem * (lastItem + 1) / 2)
   }
 
   const nums = [1, 2, 3, 4, 5]
   const sumOfArray = sumContiguousArray(nums)
-  console.log(sumOfArray)
+  // console.log(sumOfArray)
