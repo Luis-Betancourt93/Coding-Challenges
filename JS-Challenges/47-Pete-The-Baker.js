@@ -1,0 +1,19 @@
+/*
+Pete likes to bake some cakes. He has some recipes and ingredients. Unfortunately he is not good in maths. Can you help him to find out, how many cakes he could bake considering his recipes?
+
+Write a function cakes(), which takes the recipe object and the available ingredients object and returns the maximum number of cakes Pete can bake. Ingredients that are not present in the objects, can be considered as 0.
+*/
+
+
+const cakes = (recipe, available) => {
+  let num_cakes = Infinity;
+  for (let ingredient in recipe) {
+    if (!available[ingredient] || recipe[ingredient] > available[ingredient])
+      return 0;
+    num_cakes = Math.min(
+      num_cakes,
+      Math.floor(available[ingredient] / recipe[ingredient])
+    );
+  }
+  return num_cakes;
+};
