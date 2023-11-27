@@ -3,13 +3,13 @@ Create a function that takes an integer as an argument and returns "Even" for ev
 */
 
 function evenOrOdd(number) {
-  if (number % 2 === 0) {
-    return 'Even'
-  } else {
-    return 'Odds'
-  }
+  // if (number % 2 === 0) {
+  //   return 'Even'
+  // } else {
+  //   return 'Odds'
+  // }
 
-
+ return number % 2 === 0 ? 'Even' : 'Odds' // Using the Ternary Operator
 
 }
 
