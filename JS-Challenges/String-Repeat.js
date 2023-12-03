@@ -7,10 +7,12 @@ Examples (input -> output)
 */
 
 
-function repeatStr (n, s) {
-  console.log(s.repeat(n))
-}
+// function repeatStr (n, s) {
+//   console.log(s.repeat(n))
+// }
 
+
+const repeatStr = (n, s) => console.log(s.repeat(n))
 
 repeatStr(3, "*")  //, "***"
 repeatStr(5, "#")  //, "#####"
