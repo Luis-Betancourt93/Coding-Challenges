@@ -1,1 +1,1 @@
-let camperbot;
+let camperbot = 0;
