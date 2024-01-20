@@ -72,3 +72,6 @@ function buyHealth() {
  }
 
 
+function update(location) {
+
+}
