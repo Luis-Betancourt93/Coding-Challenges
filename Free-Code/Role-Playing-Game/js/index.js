@@ -76,4 +76,4 @@ function update(location) {
 
 }
 
-const locations = []
+const locations = [{}]
