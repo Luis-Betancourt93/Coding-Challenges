@@ -75,3 +75,5 @@ function buyHealth() {
 function update(location) {
 
 }
+
+const locations = []
