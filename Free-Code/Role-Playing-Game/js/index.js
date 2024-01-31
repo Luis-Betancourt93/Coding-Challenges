@@ -41,7 +41,7 @@ button2.onclick = goCave;
 button3.onclick = fightDragon;
 
 function goTown() {
-  update(locations)
+  update(locations[0])
 
   text.innerText = "You are in the town square. You see a sign that says \"Store\"."
   button1.innerText = 'Go to store'
