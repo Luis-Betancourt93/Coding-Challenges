@@ -75,7 +75,9 @@ function buyHealth() {
 
 
 function update(location) {
-  button1.innerText = location['button text'][0];
+  button1.innerText = location["button text"][0];
+  button2.innerText = location["button text"][1];
+  button3.innerText = location["button text"][2];
   button2.innerText = "Go to cave";
   button3.innerText = "Fight dragon";
   button1.onclick = goStore;
