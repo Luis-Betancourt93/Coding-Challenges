@@ -80,9 +80,9 @@ function update(location) {
   button3.innerText = location["button text"][2];
   button2.innerText = "Go to cave";
   button3.innerText = "Fight dragon";
-  button1.onclick = goStore;
-  button2.onclick = goCave;
-  button3.onclick = fightDragon;
+  button1.onclick = location["button functions"][0];
+  button2.onclick = location["button functions"][1];
+  button3.onclick = location["button functions"][2];
   text.innerText = "You are in the town square. You see a sign that says \"Store\".";
 }
 
