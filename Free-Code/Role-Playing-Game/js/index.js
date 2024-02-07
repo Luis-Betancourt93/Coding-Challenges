@@ -74,6 +74,13 @@ function buyHealth() {
 
  }
 
+ function fightSlime() {
+
+ }
+ 
+ function fightBeast() {
+   
+ }
 
 function update(location) {
   button1.innerText = location["button text"][0];
