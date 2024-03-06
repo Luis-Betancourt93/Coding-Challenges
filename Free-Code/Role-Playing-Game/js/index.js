@@ -68,7 +68,7 @@ button3.onclick = goTown;
 }
 
 function buyHealth() {
-
+  gold = gold -10
 }
  function buyWeapon() {
 
