@@ -73,6 +73,8 @@ function buyHealth() {
   health += 10;
   healthText.innerText = health;
   goldText.innerText = gold;
+  } else {
+    
   }
 
   
