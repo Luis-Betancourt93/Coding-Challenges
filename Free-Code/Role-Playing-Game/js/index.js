@@ -103,6 +103,9 @@ function update(location) {
   text.innerText = text.innerText = location.text;;
 }
 
+const weapons = []
+
+
 const locations = [{
   name: 'town square',
   "button text": ["Go to store", "Go to cave", "Fight dragon"],
