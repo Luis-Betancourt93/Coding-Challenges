@@ -103,8 +103,24 @@ function update(location) {
   text.innerText = text.innerText = location.text;;
 }
 
-const weapons = []
-
+const weapons = [
+  {
+    name: "stick",
+    power: 5
+  },
+  {
+    name: "dagger",
+    power: 30
+  },
+  {
+    name: "claw hammer",
+    power: 50
+  },
+   {
+     name: "sword",
+     power: 100
+  }
+];
 
 const locations = [{
   name: 'town square',
