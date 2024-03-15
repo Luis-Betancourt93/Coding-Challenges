@@ -80,7 +80,9 @@ function buyHealth() {
   
 }
  function buyWeapon() {
+  if(gold >= 30) {
 
+  }
  }
 
  function fightSlime() {
