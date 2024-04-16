@@ -99,6 +99,11 @@ function buyHealth() {
   } 
  }
 
+function sellWeapon() {
+  
+}
+
+
  function fightSlime() {
 
  }
