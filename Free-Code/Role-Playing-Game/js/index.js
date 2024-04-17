@@ -100,7 +100,11 @@ function buyHealth() {
  }
 
 function sellWeapon() {
-  
+  if (inventory.length > 1) {
+    
+  } else {
+    
+  }
 }
 
 
