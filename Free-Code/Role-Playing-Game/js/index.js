@@ -189,3 +189,8 @@ const monsters = [
     health: 300
   },
 ]
+
+
+function goFight() {
+  
+}
