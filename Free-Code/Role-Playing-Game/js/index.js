@@ -113,7 +113,8 @@ function sellWeapon() {
 
 
  function fightSlime() {
-
+  fighting = 0;
+  goFight();
  }
  
  function fightBeast() {
@@ -192,5 +193,5 @@ const monsters = [
 
 
 function goFight() {
-  
+
 }
