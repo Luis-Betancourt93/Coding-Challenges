@@ -32,9 +32,7 @@ function goCave() {
   update(locations[2])
 }
 
-function fightDragon() {
-  console.log('Fighting dragon.')
-}
+
 
 button1.onclick = goStore;
 button2.onclick = goCave;
@@ -117,9 +115,16 @@ function sellWeapon() {
   goFight();
  }
  
+
  function fightBeast() {
-   
+  fighting = 1;
+  goFight();
  }
+
+ function fightDragon() {
+  fighting = 2;
+  goFight();
+}
 
 function update(location) {
   button1.innerText = location["button text"][0];
