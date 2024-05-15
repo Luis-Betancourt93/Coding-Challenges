@@ -198,5 +198,5 @@ const monsters = [
 
 
 function goFight() {
-
+  update(locations[3])
 }
