@@ -31,6 +31,10 @@ function goStore() {
 function goCave() {
   update(locations[2])
 }
+function goFight() {
+  update(locations[3])
+  monsterHealth = monsters[fighting].health;
+}
 
 
 
@@ -194,9 +198,6 @@ const monsters = [
     level: 20,
     health: 300
   },
-]
+]``
 
 
-function goFight() {
-  update(locations[3])
-}
