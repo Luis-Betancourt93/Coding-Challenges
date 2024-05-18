@@ -35,6 +35,8 @@ function goFight() {
   update(locations[3])
   monsterHealth = monsters[fighting].health;
   monsterStats.style.dispay = 'block';
+  monsterName.innerText = monsters[fighting].name;
+  monsterHealtheText.innerText = monsters[fighting].health;
 }
 
 
