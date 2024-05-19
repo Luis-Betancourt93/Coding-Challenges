@@ -58,6 +58,9 @@ button2.onclick = goCave;
 button3.onclick = fightDragon;
 }
 
+function attack() {
+  text.innerText = 'The ' + monsters[fighting].name; + 'attacks.`'
+}
 
 function goStore() {
   update(locations[1])
