@@ -62,11 +62,14 @@ function attack() {
   text.innerText = 'The ' + monsters[fighting].name; + 'attacks.'
   text.innerText += 'You attack it with your ' + weapons[currentWapon].name  + '.'
   health -= monsters[fighting].level;
-  monsterHealth -= weapons[currentWeapon].power
+  monsterHealth -= weapons[currentWeapon].power + Math.floor(Math.random() * xp) + 1;
   
 
 }
+  
 
+
+ 
 function goStore() {
   update(locations[1])
   text.innerText = 'You enter the store'
