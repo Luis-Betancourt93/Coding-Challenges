@@ -71,8 +71,14 @@ function attack() {
   } else if (monsterHealth <= 0 ) {
     defeatMonster()
   }
-  
+}
 
+function defeatMonster() {
+
+}
+
+function lose() {
+  
 }
   
 
