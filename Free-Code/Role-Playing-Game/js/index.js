@@ -70,11 +70,7 @@ function attack() {
 
   } else if (monsterHealth <= 0 ) {
     fighting === 2 ? winGame : defeatMonster();
-    // if(fighting === 2) {
-    //   winGame()
-    // } else {
-    //   defeatMonster()
-    // }
+    
     
   }
 }
@@ -94,6 +90,10 @@ function defeatMonster() {
 
 function lose() {
   update(locations[5]);
+}
+
+function winGame() {
+  update(location[6])
 }
 
 function restart() {
