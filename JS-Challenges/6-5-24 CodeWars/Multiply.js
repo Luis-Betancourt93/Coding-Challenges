@@ -17,8 +17,8 @@ function multiply(a,b) {
 // const multiply = (a,b) => console.log(a * b)
 
 
-
-
 multiply(2, 5); // 10
 multiply(5, 10); // 50 
 multiply(0, 100); // 0 
+
+
