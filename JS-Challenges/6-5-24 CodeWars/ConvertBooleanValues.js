@@ -32,3 +32,10 @@ console.log(strToBool('Yes'), 'True' )
 console.log(strToBool('No'), 'False' )
 console.log(strToBool('Yes'), 'True' )
 
+
+
+
+/*
+
+*/
+//
