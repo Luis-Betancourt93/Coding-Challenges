@@ -1,3 +1,8 @@
+/*
+
+
+*/
+
 let camperbot = 0;
 
 let health = 100;
@@ -78,6 +83,10 @@ function attack() {
     fighting === 2 ? winGame : defeatMonster();
     
     
+  }
+
+  if(Math.random() <= .1) {
+
   }
 }
 
