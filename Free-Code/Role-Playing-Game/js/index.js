@@ -227,6 +227,11 @@ function update(location) {
   text.innerText = text.innerText = location.text;;
 }
 
+
+function easterEgg() {
+  update(locations[7])
+}
+
 const weapons = [
   {
     name: "stick",
@@ -307,6 +312,6 @@ const monsters = [
     level: 20,
     health: 300
   },
-]``
+]
 
 
