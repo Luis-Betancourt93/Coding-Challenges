@@ -236,6 +236,14 @@ function pick(guess) {
 
 }
 
+function pickTwo()  {
+  pick(2)
+}
+
+function pickEight() {
+  pick(8)
+}
+
 const weapons = [
   {
     name: "stick",
