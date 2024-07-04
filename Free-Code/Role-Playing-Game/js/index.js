@@ -304,6 +304,12 @@ const locations = [{
   "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
   "button functions": [restart, restart, restart],
   text: "You defeat the dragon. You win he game! "
+},
+{
+  name: "easter egg",
+  "button text": ["2", "8", "Go to town square?"],
+  "button functions": [pickTwo, pickEight, goTown],
+  text: "You find a secret game. Pick a number above. Ten numbers will be randomly chosen between 0 and 10. If the number you choose mathches one of  the random numbers, you win! "
 }
 
 ];
