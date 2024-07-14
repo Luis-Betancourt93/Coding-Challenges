@@ -1,6 +1,6 @@
 /*
-
-
+Completed step 169 BLUE
+on the the next witch is 170
 */
 
 let camperbot = 0;
@@ -241,6 +241,9 @@ function pick(guess) {
   for(let i = 0; i < 10; i++ ) {
     text.innerText += numbers[i] + '\n'
   }
+   if(numbers.includes(guess)) {
+
+   }
 }
 
 function pickTwo()  {
