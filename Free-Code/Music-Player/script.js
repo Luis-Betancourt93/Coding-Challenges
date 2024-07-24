@@ -13,5 +13,12 @@ const allSongs = [
     artist: 'quincy Larson',
     duration: '4:24',
     src:'https://cdn.freecodecamp.org/curriculum/js-music-player/scratching-the-surface.mp3'
-  }
+  }, 
+  {
+    id: 1,
+    title: 'Cant Stay Down',
+    artist: 'Quincy Larson',
+    duration: '4:15',
+    src:"https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3"
+  },
 ];
