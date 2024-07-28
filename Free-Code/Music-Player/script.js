@@ -8,6 +8,9 @@ const shuffleButton = document.getElementById('shuffle')
 
 const audio = new Audio();
 
+let userData = {
+  
+}
 
 const allSongs = [
   {
