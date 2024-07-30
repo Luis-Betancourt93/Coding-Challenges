@@ -9,7 +9,9 @@ const shuffleButton = document.getElementById('shuffle')
 const audio = new Audio();
 
 let userData = {
-   songs: [...allSongs]
+   songs: [...allSongs],
+   currentSong: null, 
+   songCurrentTime: 0, 
 }
 
 const allSongs = [
