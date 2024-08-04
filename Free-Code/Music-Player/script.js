@@ -9,7 +9,9 @@ const shuffleButton = document.getElementById('shuffle')
 const audio = new Audio();
 
 const renderSongs = array => {}
-const songsHTML = array.map(song => {});
+const songsHTML = array.map(song => {
+  return `<li id= "song-${song.id}" class= "playlist-song"></li>`
+});
 
 let userData = {
    songs: [...allSongs],
