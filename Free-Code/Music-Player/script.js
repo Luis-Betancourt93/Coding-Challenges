@@ -23,6 +23,8 @@ const songsHTML = array.map(song => {
   </li>`
 }).join('');
 
+playlistSongs.innerHTML = songsHTML;
+
 let userData = {
    songs: [...allSongs],
    currentSong: null, 
