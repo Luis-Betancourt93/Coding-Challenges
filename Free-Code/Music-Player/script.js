@@ -24,6 +24,7 @@ const songsHTML = array.map(song => {
 }).join('');
 
 playlistSongs.innerHTML = songsHTML;
+renderSongs(userData?.songs)
 
 let userData = {
    songs: [...allSongs],
