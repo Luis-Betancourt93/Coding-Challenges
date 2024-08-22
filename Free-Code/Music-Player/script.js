@@ -79,7 +79,6 @@ const allSongs = [
 ];
 
 const audio = new Audio();
-
 let userData = {
   songs: [...allSongs],
   currentSong: null,
@@ -127,5 +126,7 @@ const sortSongs = () => {
 renderSongs(sortSongs());
 
 const playSong = id => {
-  const song = userData?.songs.find(song => song.id === id)
+  const song = userData?.songs.find(song => song.id === id);
+  audio.src = song.src;
+  audio.title = song.title;
 };
