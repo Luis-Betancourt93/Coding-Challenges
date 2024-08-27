@@ -141,3 +141,5 @@ userData.currentSong = song;
 
 playButton.classList.add("playing");
 audio.play();
+
+playButton.addEventListener("click", () => {})
