@@ -149,3 +149,5 @@ if(!userData?.currentSong) {
 } else {
   playSong(userData?.currentSong.id);
 }
+
+const pauseSong = () => {};
