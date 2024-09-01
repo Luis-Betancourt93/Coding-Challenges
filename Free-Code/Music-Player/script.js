@@ -150,4 +150,6 @@ if(!userData?.currentSong) {
   playSong(userData?.currentSong.id);
 }
 
-const pauseSong = () => {};
+const pauseSong = () => {
+  userData.songCurrentTime = audio.currentTime;
+};
