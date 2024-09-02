@@ -155,3 +155,5 @@ const pauseSong = () => {
   playButton.classList.remove("playing");
   audio.pause()
 };
+
+pauseButton.addEventListener("click", pauseSong);
