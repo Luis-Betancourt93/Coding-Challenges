@@ -162,4 +162,11 @@ const getCurrentSongIndex = () => {
   return userData?.songs.indexOf(userData?.currentSong);
 };
 
-const playNextSong = () => {};
+const playNextSong = () => {
+  if (userData?.currentSong === null) {
+    playSong(userData?.songs[0].id);
+    
+  } else {
+    
+  }
+};
