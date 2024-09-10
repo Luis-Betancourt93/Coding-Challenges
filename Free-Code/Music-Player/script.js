@@ -170,7 +170,9 @@ const playNextSong = () => {
     const currentSongIndex = getCurrentSongIndex();
     const nextSong = userData?.songs[currentSongIndex + 1];
 
-    
+
     playSong(nextSong.id);
   }
 };
+
+nextButton.addEventListener("click", playNextSong);
