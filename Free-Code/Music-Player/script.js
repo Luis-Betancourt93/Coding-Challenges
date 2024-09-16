@@ -194,4 +194,6 @@ previousButton.addEventListener("click", playPreviousSong)
 
 const highlightCurrentSong = () => {
   const playlistSongsElements = document.querySelectorAll(".playlist-song")
+
+  const songToHighlight = document.getElementById(`song-${userData?.currentSong?.id}`)
 };
