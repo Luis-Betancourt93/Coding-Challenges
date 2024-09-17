@@ -197,3 +197,5 @@ const highlightCurrentSong = () => {
 
   const songToHighlight = document.getElementById(`song-${userData?.currentSong?.id}`)
 };
+
+playlistSongsElements.forEach(songEl => {})
