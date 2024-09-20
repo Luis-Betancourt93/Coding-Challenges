@@ -205,3 +205,5 @@ playlistSongsElements.forEach(songEl => {
     songToHighlight.setAttribute('aria-current', 'true')
   }
 })
+
+highlightCurrentSong();
