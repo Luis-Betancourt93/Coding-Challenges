@@ -207,3 +207,5 @@ playlistSongsElements.forEach(songEl => {
 })
 
 highlightCurrentSong();
+
+const setPlayerDisplay= () => {};
