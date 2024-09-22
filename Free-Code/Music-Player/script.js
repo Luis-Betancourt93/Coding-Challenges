@@ -208,4 +208,6 @@ playlistSongsElements.forEach(songEl => {
 
 highlightCurrentSong();
 
-const setPlayerDisplay= () => {};
+const setPlayerDisplay= () => {
+  const playingSong = document.getElementById('player-song-title');
+};
