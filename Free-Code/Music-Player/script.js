@@ -219,3 +219,5 @@ songArtist.textContent = currentArtist ? currentArtist : "" ;
 }; 
 
 setPlayerDisplay();
+
+const setPlayButtonAccessibleText = () => {}
