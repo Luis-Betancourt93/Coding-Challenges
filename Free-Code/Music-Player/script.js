@@ -238,3 +238,5 @@ const shuffle = () => {
   setPlayerDisplay()
   setPlayButtonAccessibleText()
 }
+
+shuffleButton.addEventListener("click", shuffle);
