@@ -258,6 +258,6 @@ const deleteSong = id => {
   }
 }
 
+if(userData?.songs.length === 0 ) {
 
-
-
+}
