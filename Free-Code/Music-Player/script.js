@@ -264,4 +264,7 @@ if(userData?.songs.length === 0 ) {
 
  resetButton.id = "reset";
  resetButton.ariaLabel = "Reset Playlist"
+
+ resetButton.appendChild(resetText);
+ playlistSongs.appendChild(resetButton);
 }
