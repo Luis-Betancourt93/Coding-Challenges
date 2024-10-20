@@ -268,3 +268,7 @@ if(userData?.songs.length === 0 ) {
  resetButton.appendChild(resetText);
  playlistSongs.appendChild(resetButton);
 }
+
+resetButton.addEventListener("click", () =>  {
+  
+})
