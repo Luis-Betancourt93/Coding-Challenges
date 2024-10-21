@@ -270,5 +270,5 @@ if(userData?.songs.length === 0 ) {
 }
 
 resetButton.addEventListener("click", () =>  {
-  
+  userData.songs = [...allSongs];
 })
