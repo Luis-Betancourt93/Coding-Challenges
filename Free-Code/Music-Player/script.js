@@ -271,4 +271,8 @@ if(userData?.songs.length === 0 ) {
 
 resetButton.addEventListener("click", () =>  {
   userData.songs = [...allSongs];
+  renderSongs(sortSongs());
+  setPlayButtonAccessibleText();
+  resetButton.remove()
+
 })
