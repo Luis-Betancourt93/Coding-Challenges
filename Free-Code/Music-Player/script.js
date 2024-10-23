@@ -276,3 +276,5 @@ resetButton.addEventListener("click", () =>  {
   resetButton.remove()
 
 })
+
+audio.addEventListener('ended', () => {})
