@@ -103,3 +103,7 @@ products.forEach(
     `;
   }
 );
+
+class ShoppingCart {
+
+};
