@@ -111,5 +111,8 @@ class ShoppingCart {
     this.taxRate = 8.25;
   }
 
+  addItem(id, products) {
+
+  }
 
 }; 
