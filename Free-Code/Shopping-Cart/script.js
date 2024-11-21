@@ -112,6 +112,7 @@ class ShoppingCart {
   }
 
   addItem(id, products) {
+    const product = products.find((item) => item.id === id);
 
   }
 
