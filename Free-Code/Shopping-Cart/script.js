@@ -153,3 +153,8 @@ cartBtn.addEventListener("click", () => {
   showHideCartSpan.textContent = isCartShowing ? "Hide" : "Show";
   cartContainer.style.display = isCartShowing ? "block" : "none";
 });
+
+
+calculateTotal() {
+  const subTotal = this.items.reduce((total, item) => total + item.price, 0);
+}
