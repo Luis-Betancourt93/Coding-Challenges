@@ -1,16 +1,14 @@
 
 const cartContainer = document.getElementById("cart-container");
 const productsContainer = document.getElementById("products-container");
-const dessertCards = document.getElementById('dessert-car-container');
-const cartBtn = document.getElementById('cart-btn');
-const clearCartBtn = document.getElementById('clear-cart-btn');
-
+const dessertCards = document.getElementById("dessert-card-container");
+const cartBtn = document.getElementById("cart-btn");
+const clearCartBtn = document.getElementById("clear-cart-btn");
 const totalNumberOfItems = document.getElementById("total-items");
 const cartSubTotal = document.getElementById("subtotal");
-const cartTaxes = document.getElementById('taxes');
-const cartTotal = document.getElementById('total');
-
-const showHideCartSpan = document.getElementById('show-hide-cart');
+const cartTaxes = document.getElementById("taxes");
+const cartTotal = document.getElementById("total");
+const showHideCartSpan = document.getElementById("show-hide-cart");
 let isCartShowing = false;
 
 const products = [
@@ -129,16 +127,29 @@ class ShoppingCart {
       : productsContainer.innerHTML += `
       <div id="dessert${id}" class="product">
         <p>
-          <span class="product-count" id= 'product-count-for-id${id}'>${name}</span>
+          <span class="product-count" id="product-count-for-id${id}"></span>${name}
         </p>
         <p>${price}</p>
       </div>
       `;
   }
-}
+
+  getCounts() {
+    return this.items.length;
+  }
+
+  calculateTaxes(amount) {
+
+  }
+
+  calculateTotal() {
+    const subTotal = this.items.reduce((total, item) => total + item.price, 0);
+  }
+};
 
 const cart = new ShoppingCart();
 const addToCartBtns = document.getElementsByClassName("add-to-cart-btn");
+
 [...addToCartBtns].forEach(
   (btn) => {
     btn.addEventListener("click", (event) => {
@@ -153,8 +164,3 @@ cartBtn.addEventListener("click", () => {
   showHideCartSpan.textContent = isCartShowing ? "Hide" : "Show";
   cartContainer.style.display = isCartShowing ? "block" : "none";
 });
-
-
-calculateTotal() {
-  const subTotal = this.items.reduce((total, item) => total + item.price, 0);
-}
