@@ -141,6 +141,9 @@ class ShoppingCart {
   calculateTaxes(amount) {
     return ((this.taxRate / 100) * amount).toFixed(2);
   }
+  clearCart() {
+
+  }
 
   calculateTotal() {
     const subTotal = this.items.reduce((total, item) => total + item.price, 0);
@@ -171,3 +174,4 @@ cartBtn.addEventListener("click", () => {
   showHideCartSpan.textContent = isCartShowing ? "Hide" : "Show";
   cartContainer.style.display = isCartShowing ? "block" : "none";
 });
+
