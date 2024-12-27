@@ -142,7 +142,10 @@ class ShoppingCart {
     return ((this.taxRate / 100) * amount).toFixed(2);
   }
   clearCart() {
-
+    if (!this.items.length) {
+      alert("Your shopping cart is already empty");
+      return;
+    }
   }
 
   calculateTotal() {
