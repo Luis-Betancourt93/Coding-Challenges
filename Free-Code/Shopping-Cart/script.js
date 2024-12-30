@@ -154,7 +154,7 @@ class ShoppingCart {
     if (isCartCleared) {
       this.items = [];
       this.total = 0;
-
+      productsContainer.innerHTML = "";
     }
   }
 
