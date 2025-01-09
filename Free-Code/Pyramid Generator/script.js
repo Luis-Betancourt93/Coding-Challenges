@@ -4,3 +4,4 @@ character = 'World';
 console.log(character);
 
 let secondCharacter;
+secondCharacter = 'Test';
