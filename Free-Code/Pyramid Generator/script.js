@@ -1,7 +1,9 @@
 const character = '#';
 const count = 8;
-const rows = ["Naomi", "Quincy", "CamperChan"];
+const rows = [];
 
 for (let i = 1; i <= count; i++) {
-console.log(i)
+rows.push(i)
 }
+
+let results = "";
