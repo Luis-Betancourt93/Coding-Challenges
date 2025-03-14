@@ -4,6 +4,7 @@ Complete the method that takes a boolean value and return a "Yes" string for tru
 
 */
 
+/*
 function boolToWord(bool) {
   if (bool === true) {
     return 'Yes'
@@ -11,6 +12,9 @@ function boolToWord(bool) {
     return 'No'
   }
 }
+*/
+
+const boolToWord = bool => bool === true? 'Yes' : 'No'
 
 console.log(boolToWord(true))
 console.log(boolToWord(false))
