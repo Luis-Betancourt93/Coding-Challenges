@@ -6,7 +6,7 @@ Examples (input -> output)
 5, "Hello" -> "HelloHelloHelloHelloHello"
 
 */
-
+/*
 function repeatStr (n, s) {
   if (n > 0) {
     return s.repeat(n)
@@ -14,6 +14,9 @@ function repeatStr (n, s) {
     return ''
   }
 }
+*/
+
+const repeatStr = (n, s) => n > 0? s.repeat(n) : ''
 
 console.log(repeatStr(3, "*"))
 console.log(repeatStr(5, "#"))
