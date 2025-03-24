@@ -10,13 +10,13 @@ You can assume, for the purpose of this kata, that the supplied array will not b
 
 */
 
-
+/*
 function findSmallestInt(arr) {
  return arr.sort((a,b) => a - b)[0]
-
-
 }
+*/
 
+const findSmallestInt = arr => arr.sort((a,b) => a - b)[0]
 
 
 console.log(findSmallestInt([78,56,232,12,8]))
