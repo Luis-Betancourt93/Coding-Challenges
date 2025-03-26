@@ -3,6 +3,12 @@ All you have to do is type return "hello edabit.com" between the curly braces { 
 
 */
 
+
+/*
 function hello() {
 	return 'Hello Edabit.com';
 }
+  */
+
+
+const hello = () => 'hello edabit.com';
