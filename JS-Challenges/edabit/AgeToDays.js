@@ -8,4 +8,4 @@ function calcAge(age) {
 }
 */
 
-const calcAge = age => age * 365;
+const calcAge = age => age * 365; 
