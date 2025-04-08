@@ -5,3 +5,7 @@ Fix the code in the code tab to pass this challenge (only syntax errors). Look a
 function cubes(a) {
 	return a ** 3
 }
+
+/*
+cubes=a=>a**3
+*/
