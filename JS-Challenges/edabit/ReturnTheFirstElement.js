@@ -5,3 +5,8 @@ Create a function that takes an array containing only numbers and return the fir
 function getFirstValue(arr) {
 	return arr[0];
 }
+
+/*
+
+const getFirstValue = arr => arr[0];
+*/
