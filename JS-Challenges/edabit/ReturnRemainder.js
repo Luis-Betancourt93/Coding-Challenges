@@ -5,3 +5,7 @@ There is a single operator in JavaScript, capable of providing the remainder of 
 function remainder(x, y) {
 	return x % y;
 }
+
+/*
+const remainder = (x, y) => x % y
+*/
