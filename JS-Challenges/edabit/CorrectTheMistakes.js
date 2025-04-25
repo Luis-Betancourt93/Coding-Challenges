@@ -5,3 +5,7 @@ Fix the code in the code tab to pass this challenge (only syntax errors). Look a
 function squared(b) {
 	return b*b;
 }
+
+/*
+const squared = b => b * b
+*/
