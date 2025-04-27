@@ -5,3 +5,7 @@ Create a function that takes a number as its only argument and returns true if i
 function lessThanOrEqualToZero(num) {
 	return num <= 0;
 }
+
+/*
+const lessThanOrEqualToZero = num => num <= 0;
+*/
