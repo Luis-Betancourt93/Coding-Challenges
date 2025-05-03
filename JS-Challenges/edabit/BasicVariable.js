@@ -9,3 +9,7 @@ function nameString(name){
 	var result = name + b
   	return result
 }
+
+/*
+const nameString = name => `${name}Edabit`;
+*/
