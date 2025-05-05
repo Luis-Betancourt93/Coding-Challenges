@@ -7,3 +7,7 @@ Given two numbers, return true if the sum of both numbers is less than 100. Othe
 function lessThan100(a, b) {
 	return a+b<100;
 }
+
+/*
+const lessThan100 = (a, b) => (a + b) < 100
+*/
