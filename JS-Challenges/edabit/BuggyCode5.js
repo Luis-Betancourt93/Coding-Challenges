@@ -15,7 +15,7 @@ function printArray(number){
 
 
 /*
-
+const printArray = n => Array(...Array(n)).map((v, i) => i + 1);
 
 
 */
