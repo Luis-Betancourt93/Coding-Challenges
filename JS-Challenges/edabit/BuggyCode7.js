@@ -13,5 +13,5 @@ function swap(a, b){
 
 
 /*
-
+const swap = (a, b) => [b, a];
 */
