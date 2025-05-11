@@ -8,3 +8,8 @@ In this challenge, a farmer is asking you to tell him how many legs can be count
 function animals(chickens, cows, pigs) {
 	return chickens*2+(cows+pigs)*4;
 }
+
+
+/*
+const animals = (chickens, cows, pigs) => chickens * 2 + cows * 4 + pigs * 4;
+*/
