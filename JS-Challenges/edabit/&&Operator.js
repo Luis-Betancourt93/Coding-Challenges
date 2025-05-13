@@ -17,3 +17,10 @@ Make a function using the && operator.
 function and(a, b) {
 	return a && b;
 }
+
+/*
+function and(a, b) {
+	let bool = (a === b && b != false ) ? true : false;
+	return bool;
+}
+*/
