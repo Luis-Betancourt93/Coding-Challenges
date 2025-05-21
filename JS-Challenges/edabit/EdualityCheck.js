@@ -14,3 +14,6 @@ Implement a function that returns true if the parameters are equal, and false if
 function checkEquality(a, b) {
   return a === b;
 }
+/*
+const checkEquality = (a, b) => a === b;
+*/
