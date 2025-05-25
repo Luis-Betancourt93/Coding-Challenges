@@ -11,3 +11,7 @@ boolToString(false) ➞ "false"
 function boolToString(flag){
 	return flag.toString();
 }
+
+/*
+boolToString = f => `${f}`;
+*/
