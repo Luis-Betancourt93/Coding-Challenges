@@ -6,3 +6,7 @@ An arrow function is constructed like so:
 */
 
 let arrowFunc = x => x;
+
+/*
+const arrowFunc = arg => arg;
+*/
