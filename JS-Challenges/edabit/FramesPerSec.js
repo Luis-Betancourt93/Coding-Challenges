@@ -5,3 +5,7 @@ Create a function that returns the number of frames shown in a given number of m
 function frames(minutes, fps) {
 	return minutes * fps * 60
 }
+
+/*
+const frames = (m, fps) => m * (fps * 60);
+*/
