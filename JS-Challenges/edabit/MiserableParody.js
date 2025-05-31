@@ -13,3 +13,8 @@ calculator("49/7*2-3") ➞ 11
 function calculator(str) {
 	return eval(str);
 }
+
+
+/*
+let calculator = s => eval(s);
+*/
