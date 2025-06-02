@@ -7,3 +7,8 @@ Can you help her?
 function greeting(name){
   return name == "Mubashir"?"Hello, my Love!":"Hello, " + name + "!";
   }
+
+
+  /*
+greeting=a=>`Hello, ${a=='Mubashir'?'my Love':a}!`
+  */
