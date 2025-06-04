@@ -11,3 +11,7 @@ function makesTen(a,b){
 		return false
 	}
 }
+
+/*
+const makesTen = (a , b) => [a , b , a + b].includes(10);
+*/
