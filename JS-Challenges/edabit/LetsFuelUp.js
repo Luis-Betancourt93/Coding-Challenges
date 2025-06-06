@@ -7,3 +7,6 @@ Create a function which calculates the amount of fuel it needs, given the distan
 function calculateFuel(n) {
 	return n>10 ? n*10 : 100
 }
+/*
+const calculateFuel = n => Math.max(100, n * 10);
+*/
