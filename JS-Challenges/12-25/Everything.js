@@ -30,7 +30,7 @@ const scrapedUsers = [
 const FF7 = scrapedUsers.map((element, index) => ({
   id: index + 1, 
   name: element.rawName.trim().toUpperCase(),
-  isActive: element.status == 'Active' ? true : false 
+  isActive: element.status === 'Active' ? true : false 
 }));
 
 console.log(FF7)
